@@ -7,7 +7,7 @@ const ChatContext = createContext();
 // Define Endpoint globally
 const ENDPOINT =
   process.env.NODE_ENV === "production"
-    ? "https://chit-chat-rkjm.onrender.com"
+    ? "https://chit-chat-a-real-time-chatting-app.onrender.com"
     : "http://localhost:5000";
 var socket; // Global variable for this file
 
