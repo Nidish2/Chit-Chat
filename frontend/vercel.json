@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://chit-chat-a-real-time-chatting-app.onrender.com/api/$1"
+    }
+  ]
+}
